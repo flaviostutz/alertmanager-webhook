@@ -1,0 +1,11 @@
+global:
+
+route:
+  receiver: 'webhook-receiver'
+
+receivers:
+- name: 'webhook-receiver'
+  webhook_configs:
+  - send_resolved: true
+    url: 'WEBHOOK_URL'
+
