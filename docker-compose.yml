@@ -19,8 +19,8 @@ services:
       - BOLT_PATH=/data/bot.db
       - STORE=bolt
       - LISTEN_ADDR=0.0.0.0:8080
-      - TELEGRAM_ADMIN=AAAA
-      - TELEGRAM_TOKEN=AAAA:XXXXX
+      - TELEGRAM_ADMIN=170949903
+      - TELEGRAM_TOKEN=670453481:AAF2ixaYqhEU2ysbxclzZNmhnMsgtewP-gU
     volumes:
       - telegrambot:/data
 
